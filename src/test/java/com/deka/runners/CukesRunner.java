@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = "com/deka/step_definitions",
         features = "src/test/resources/features",
-        tags = "",
+        tags = "@wip",
         dryRun = false
 
 )
